@@ -105,6 +105,7 @@ class UrlValidatorTest extends ConstraintValidatorTestCase
         return [
             ['http://a.pl'],
             ['http://www.example.com'],
+            ['http://tt.example.com'],
             ['http://www.example.com.'],
             ['http://www.example.museum'],
             ['https://example.com/'],
